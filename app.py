@@ -1000,13 +1000,14 @@ def main():
     print("✅ Dashboard initialized successfully!")
     print("🌐 Launching web interface...")
     
+    # For Beanstalk deployment, use different settings
     interface.launch(
         server_name="0.0.0.0",  # Listen on all interfaces
-        server_port=7860,
+        server_port=8080,       # Beanstalk expects port 8080
         share=False,
         show_error=True,
         quiet=False,
-        inbrowser=False  # Don't try to open browser in container
+        inbrowser=False  # Don't auto-open browser in cloud
     )
     
 if __name__ == "__main__":
