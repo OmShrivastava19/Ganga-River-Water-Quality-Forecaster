@@ -1,0 +1,31 @@
+# Core Dependencies
+numpy>=1.21.0
+pandas>=1.3.0
+matplotlib>=3.5.0
+scikit-learn>=1.0.0
+tensorflow>=2.8.0
+
+# Web Interface
+gradio>=3.50.0
+
+# API and HTTP Requests
+requests>=2.28.0
+python-dotenv>=0.19.0
+
+# Data Processing and Visualization
+seaborn>=0.11.0
+plotly>=5.0.0
+
+# Optional: Firebase (uncomment if using real Firebase)
+# firebase-admin>=6.0.0
+
+# Optional: Google APIs (uncomment if using official libraries)
+# googlemaps>=4.7.0
+# google-generativeai>=0.3.0
+
+# Optional: Interactive Maps (uncomment if using map features)
+# folium>=0.12.0
+
+# Development and Testing
+# pytest>=7.0.0
+# jupyter>=1.0.0
