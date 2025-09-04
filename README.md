@@ -39,8 +39,8 @@ This dashboard provides 3-day forecasts for critical water quality parameters ac
 
 1. **Clone or download the repository**:
 ```bash
-git clone <repository-url>
-cd ganga-water-quality-dashboard
+git clone https://github.com/OmShrivastava19/Ganga-River-Water-Quality-Forecaster
+cd Ganga-River-Water-Quality-Forecaster
 ```
 
 2. **Install dependencies**:
@@ -152,19 +152,6 @@ The system includes robust fallback options:
 └── .gitignore           # Git ignore rules
 ```
 
-## Contributing
-
-### Development Setup
-1. Install development dependencies:
-```bash
-pip install pytest jupyter
-```
-
-2. Run tests:
-```bash
-pytest
-```
-
 ### Code Structure
 - Follow PEP 8 style guidelines
 - Add docstrings for all classes and methods
@@ -225,4 +212,4 @@ This project is intended for educational and research purposes. Please ensure co
 
 ## Contact
 
-For questions, issues, or contributions, please refer to the project repository or contact the development team.
+For questions, issues, or contributions, please refer to the project repository.
